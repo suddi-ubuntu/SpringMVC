@@ -1,0 +1,90 @@
+body{
+	background-color: grey;
+	font-family: Helvetica;
+}
+
+#container{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header{
+	background-color: #885434;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+#content{
+	padding: 10px;
+
+}
+
+#nav {
+	background-color: white;
+	color:red;
+    width:160px;
+    padding: 10px 10px 30px 10px;
+    float: left;
+    list-style-type: none;
+}
+a{
+	color:red;
+}
+#nav ul{
+	list-style-type: none;
+	padding: 0px;
+}
+
+#main{
+	background-color: white;
+	float: right;
+	width:580px;
+	padding: 10px;
+
+
+}
+h1,h2,h3{
+	margin: 0px;
+}
+
+#footer{
+	background-color: #94E8E7;
+	text-align: right;
+	clear: both;
+	padding: 10px;
+	color: white;
+}
+
+#outerbox{
+	width: 800px;
+	overflow: hidden;
+}
+#sliderbox{
+	position: relative;
+	width: 4000px;
+	animation-name: myanimation;
+	animation-duration: 25s;
+	animation-iteration-count: infinite;
+}
+#sliderbox img{
+	float: left;
+}
+@keyframes myanimation{
+	0%{left: 0;}
+	16%{left: 0;}
+
+	20%{left: -800px;}
+	36%{left: -800px;}
+
+	40%{left: -1600px;}
+	56%{left: -1600px;}
+
+	60%{left: -2400px;}
+	76%{left: -2400px;}
+
+	80%{left: -3200px;}
+	96%{left: -3200px;}
+
+	100%{left: -4000px;}
+}
