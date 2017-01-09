@@ -7,10 +7,19 @@ Message is: ${msg}
 	<title>My webpage</title>
 	<link href="/resources/core/css/style_pd.css" rel="stylesheet">
 </head>
-<body>
+<script>
+function blink() {
+   var f = document.getElementById('Foo');
+   setInterval(function() {
+      f.style.display = (f.style.display == 'none' ? '' : 'none');
+   }, 1000);
+}
+</script>
+<body onload="blink();">
+
      <div id="container">
       	 <div id="header">
-      	 	<h1>My webpage</h1>
+      	 	<h1>Welcome to the world of <div id="Foo">Moosa</div></blink></h1>
       	 </div>
       	 <div id="outerbox">
       	 <div id="sliderbox">

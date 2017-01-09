@@ -22,4 +22,11 @@ public class HelloController {
             return new ModelAndView("errorpage", "message","Sorry, username or password error");  
         }  
     }  
+
+
+    @RequestMapping("/signup")
+    public ModelAndView register(){
+        return new ModelAndView("signup");
+    }
+
 }
