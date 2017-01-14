@@ -21,19 +21,37 @@ body{
 }
 
 #nav {
-	background-color: white;
+	background-color: #CEEA9C;
 	color:red;
     width:160px;
+    height: 1035px;
     padding: 10px 10px 30px 10px;
     float: left;
     list-style-type: none;
 }
 a{
-	color:red;
+	color:#861432;
 }
+
 #nav ul{
 	list-style-type: none;
 	padding: 0px;
+	width:150px;
+	height: 50px;
+}
+#nav ul li{
+    border:solid white;
+	background-color: #D78777;
+    width: 150px;
+	height: 50px;
+	text-align: center;
+	position: relative;
+	font-size: 20px;
+	padding: 5px;
+
+}
+#nav ul li:hover{
+	background-color: red;
 }
 
 #main{
